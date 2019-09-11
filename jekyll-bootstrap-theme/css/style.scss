@@ -20,7 +20,7 @@ body {
 }
 
 .page-header > h2 > a {
-  color: #CEECF5;
+  color: #516f72;
 }
 
 a {
@@ -82,10 +82,18 @@ a:hover {
 }
 
 .page-header {
-  color: #fff;
+  color: #24292e;
   text-align: center;
-  background-image: linear-gradient(180deg, #06871e, #510587, #ffff33);
+  background-image: url('{{ site.baseurl }}/images/{{ site.year }}/header-bg.png');
+  background-attachment: scroll;
+  background-position: center center;
+  background-repeat: none;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
+
 
 @media screen and (min-width: 64em) {
   .page-header {
@@ -136,19 +144,19 @@ a:hover {
 
 @media screen and (min-width: 64em) {
   .project-tagline {
-    font-size: 1.55rem;
+    font-size: 1.75rem;
   }
 }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .project-tagline {
-    font-size: 1.55rem;
+    font-size: 1.75rem;
   }
 }
 
 @media screen and (max-width: 42em) {
   .project-tagline {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
   }
 }
 
