@@ -3,191 +3,22 @@ layout: default
 title:  'Welcome'
 ---
 
-<section class="page-header">
-
-    <h1 class="project-name">STOC2020</h1>
-    <h2 class="project-tagline">First International Workshop on Social Threats in Online Conversations</h2>
-    <h2 class="project-tagline">Aspriring to be in conjunction with The The 58th Annual Meeting of the Association for
-        Computational Linguistics <a href="https://acl2020.org/">(ACL 2020)</a> in downtown Seattle from July 5th
-        through
-        July 10th, 2020.
-        <br>
-        <br>
-        Venue: Hyatt Regency Seattle
-        <br>
-        <a href="#">
-            (Proceedings)</a>
-    </h2>
-    <br>
-
-</section>
+{% include _STOC_{{site.year}}/header.html %}
+{% include _STOC_{{site.year}}/navbar.html %}
 
 
 <section class="main-content">
-
-    <h2>Overview</h2>
-
-    <p>
-        Description: Social threats for individuals and organizations are prevalent in online conversations, where human
-        vulnerabilities pave the way for phishing, propaganda, scams, and other social engineering tactics. Over 80% of
-        cyber penetrations start with a social engineering attack (Verizon/TM 2014), often through manipulative language
-        usage, resulting in a loss of money, sensitive information, or control of resources to unsuspecting victims.
-        Detection techniques based on metadata have yielded minimal success in the face of rising personalized attacks,
-        especially those involving impersonation and power relationships (e.g., a spoofed dean requesting a gift card
-        purchase from a department chair). Natural language processing and computational socio-linguistics techniques in
-        conjunction with metadata analysis can provide a better means for detecting and countering such attacks for a
-        wide variety of online conversations. The STOC (Social Threats in Online Conversations: Understanding and
-        Management) workshop is the first dedicated to gleaning actions and intentions of adversaries in social
-        engineering attacks from the adversaries’ language use as well as the content of communication with their
-        targets.
-
-    </p>
+        {% include _STOC_{{site.year}}/description.html %}
+        {% include _STOC_{{site.year}}/topics.html %}
+        {% include _STOC_{{site.year}}/submissions.html %}
+        {% include _STOC_{{site.year}}/important_dates.html %}
+        {% include _STOC_{{site.year}}/schedule.html %}
+        {% include _STOC_{{site.year}}/accepted_papers.html %}
+        {% include _STOC_{{site.year}}/organizers.html %}
+        {% include _STOC_{{site.year}}/program_committee.html %}
 
 
-    <p>
-        Topics: The topics of the workshop include but are not limited to the following:
-    </p>
 
 
-    <ul>
-        <li>Advances in Natural Language Processing (NLP) for understanding online conversations, e.g., semantic
-            parsing,
-        </li>
-        <li>information retrieval and question answering</li>
-        <li>Dialogue/narrative understanding and generation for bots to counter adversaries</li>
-        <li>Detection of social threats, e.g., social engineering attacks, in online conversations</li>
-        <li>Automatic detection of actions and intentions of participants in online conversations, e.g., the implied
-            “ask”
-        </li>
-        <li>in the sentence Your vote here will result in eligibility for a $500 prize.</li>
-        <li>Natural language generation techniques to enable bot development for controlled, goal-directed and yet
-            natural
-        </li>
-        <li>sounding conversations with potential adversaries.</li>
-        <li>Persuasion techniques used in dialogue/narrative in social engineering contexts</li>
-        <li>Active and passive defense mechanisms used for development of conversational bots</li>
-        <li>Identification of attitudes that adversaries attempt to induce in targets for compliance</li>
-        <li>Techniques to induce attitudes in the adversaries, e.g., in counter attacks</li>
-        <li>Risk models for operating NLP bots with discretion and autonomy to converse with adversary</li>
-        <li>Social impact of social engineering attacks, persuasion techniques, etc. using language</li>
-        <li>Evaluation of the impact of different types of social engineering attacks</li>
-        <li>Evaluation of approaches to detecting and countering threats using language as a tool</li>
-    </ul>
 
-
-    <a id="invitedSpeakers" class="anchor" href="#invitedSpeakers" aria-hidden="true"><span
-            class="octicon octicon-link"></span></a>
-    <h2>Invited Speakers</h2>
-
-    <ul>
-        <li>
-            <font size="3" color="black"><b><a href="https://engineering.leeds.ac.uk/staff/76/">TBD</a></b></font>
-            <br/>
-            <b>Title: TBD</b>
-            <br/>
-            Former NSF Program Director. Research focuses on social Influence and persuasion,
-            mediated-communication, and gender roles. Forthcoming book:
-        </li>
-    </ul>
-
-    <a id="submission-info" class="anchor" href="#submission-info" aria-hidden="true"><span
-            class="octicon octicon-link"></span></a>
-    <h2>Submissions</h2>
-
-    We encourage contributions with either a technical paper (NAACL style, 8 pages without references), a position
-    statement (NAACL style, 4 pages maximum) or an abstract of a published work. NAACL Style files available <a
-        href="http://naacl2018.org/call_for_paper.html">here</a>. .
-
-    <a id="important-dates" class="anchor" href="#accepted-papers" aria-hidden="true"><span
-            class="octicon octicon-link"></span></a>
-    <h2>Important Dates</h2>
-
-    <dl class="row">
-        <dt class="col-sm-3">First call for workshop papers</dt>
-        <dd class="col-sm-9">Nov 20, 2019</dd>
-        <dt class="col-sm-3">Second call for workshop papers</dt>
-        <dd class="col-sm-9">Jan 20, 2020</dd>
-        <dt class="col-sm-3">Workshop papers due</dt>
-        <dd class="col-sm-9">Mar 20, 2020</dd>
-        <dt class="col-sm-3">Notification of acceptance</dt>
-        <dd class="col-sm-9">April 24, 2020</dd>
-        <dt class="col-sm-3">Camera-ready papers due</dt>
-        <dd class="col-sm-9">May 3, 2020</dd>
-        <dt class="col-sm-3">Workshop dates</dt>
-        <dd class="col-sm-9">July 9–10, 2020</dd>
-    </dl>
-
-    <a id="schedule" class="anchor" href="#schedule" aria-hidden="true"><span class="octicon octicon-link"></span></a>
-
-    <a id="schedule" class="anchor" href="#schedule" aria-hidden="true"><span class="octicon octicon-link"></span></a>
-    <h2>Schedule
-        <a href="#">
-            (Proceedings)</a>
-    </h2>
-    <table class="table" style="width:100%">
-        <tr>
-            <td>9:00-9:10</td>
-            <td><strong>Opening remarks</strong></td>
-            <td>Archna Bhatia</td>
-        </tr>
-
-        <tr class="success">
-            <td>9:10-10:10</td>
-            <td><strong>Keynote Talk. </strong> TBD
-            </td>
-            <td> TBD</td>
-        </tr>
-
-
-    </table>
-
-    <h2>Accepted Papers</h2>
-    <ul>
-    </ul>
-
-    <a id="organizers" class="anchor" href="#organizers" aria-hidden="true"><span
-            class="octicon octicon-link"></span></a>
-
-    <h2>Organizing Committee</h2>
-
-    <table cellspacing="0" cellpadding="0" style="width:100%">
-        <tr>
-            <td>
-                <li><a href="https://www.ihmc.us/groups/abhatia/">Archna Bhatia</a></li>
-            </td>
-            <td>IHMC</td>
-            <td>abhatia@ihmc.us</td>
-        </tr>
-
-        <tr>
-            <td>
-                <li><a href="https://www.ihmc.us/groups/adalton/">Adam Dalton</a></li>
-            </td>
-            <td>IHMC</td>
-            <td>adalton@ihmc.us</td>
-        </tr>
-        <tr>
-            <td>
-                <li><a href="https://webpages.uncc.edu/sshaikh2/">Samira Shaikh</a></li>
-            </td>
-            <td>UNCC</td>
-            <td>samirashaikh at uncc dot edu</td>
-        </tr>
-
-    </table>
-
-    <a id="program-commitee" class="anchor" href="#program-commitee" aria-hidden="true"><span
-            class="octicon octicon-link"></span></a>
-
-    <h2>Program Committee</h2>
-    <div>
-        <table cellspacing="0" cellpadding="0" float="left">
-            <tr>
-                <td>
-                    <li>Bonnie Dorr
-                </td>
-                <td>IHMC</li></td>
-            </tr>
-        </table>
-    </div>
 </section>
